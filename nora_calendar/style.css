@@ -26,7 +26,7 @@ nav ul a {text-decoration: none;
 nav ul a:hover {
         font-size: 20px;
         background-color: #cd8383;
-        transition: o.5s ease;
+        transition: 0.5s ease;
     }
 .home-image{display: block;
     width: 40%;
@@ -103,4 +103,5 @@ nav ul a:hover {
     .prev-btn:hover, .next-btn:hover {
         background-color:#cd8383;
         font-size: 18px;
+        transition: 0.5s ease;
     }
