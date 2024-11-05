@@ -34,7 +34,7 @@ function renderCalendar(date) {
     // Clear previous calendar days
     calendarElement.innerHTML = '';
 
-    // Render day headers (Sun, Mon, etc.)
+    // Render day headers 
     const dayHeaders = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
     dayHeaders.forEach(day => {
         const dayElement = document.createElement('div');
@@ -69,5 +69,4 @@ nextMonthButton.addEventListener('click', () => {
     renderCalendar(currentDate);
 });
 
-// Initial render
 renderCalendar(currentDate);
